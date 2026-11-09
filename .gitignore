@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+
+# Gradio Cache / Temp Files
+.gradio/
+
+# Folder Dataset (Abaikan jika berisi file audio/mentah berukuran besar)
+dataset/
+
+# File Model Machine Learning (Hasil export Joblib/Pickle)
+*.pkl
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
